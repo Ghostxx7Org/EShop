@@ -1,0 +1,9 @@
+D:\Copy\asp.net\CodeOnLesson\08\ASP.NET.Training\EShop.WebControls\bin\Debug\EShop.WebControls.dll
+D:\Copy\asp.net\CodeOnLesson\08\ASP.NET.Training\EShop.WebControls\bin\Debug\EShop.WebControls.pdb
+D:\Copy\asp.net\CodeOnLesson\08\ASP.NET.Training\EShop.WebControls\obj\Debug\EShop.WebControls.dll
+D:\Copy\asp.net\CodeOnLesson\08\ASP.NET.Training\EShop.WebControls\obj\Debug\EShop.WebControls.pdb
+D:\Copy\asp.net\CodeOnLesson\09\ASP.NET.Training\EShop.WebControls\bin\Debug\EShop.WebControls.dll
+D:\Copy\asp.net\CodeOnLesson\09\ASP.NET.Training\EShop.WebControls\bin\Debug\EShop.WebControls.pdb
+D:\Copy\asp.net\CodeOnLesson\09\ASP.NET.Training\EShop.WebControls\obj\Debug\EShop.WebControls.csprojResolveAssemblyReference.cache
+D:\Copy\asp.net\CodeOnLesson\09\ASP.NET.Training\EShop.WebControls\obj\Debug\EShop.WebControls.dll
+D:\Copy\asp.net\CodeOnLesson\09\ASP.NET.Training\EShop.WebControls\obj\Debug\EShop.WebControls.pdb
