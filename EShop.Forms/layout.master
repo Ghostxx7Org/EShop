@@ -1,0 +1,95 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="layout.master.cs" Inherits="EShop.Forms.layout" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head id="Head1" runat="server">
+    <link href="Styles/styles.css" rel="stylesheet" />
+    <title>E.Shop trading</title>
+</head>
+
+<body>
+
+    <form id="form1" runat="server">
+
+        <table align="center" width="1024" cellspacing="8">
+
+            <tr>
+
+                <td colspan="3">
+
+                    <!-- логотип можно сделать свой :) -->
+
+                    <asp:Image runat="server" ImageUrl="~/Images/BlackLogo.png" ImageAlign="AbsBottom" AlternateText="Logo" />
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td colspan="3" id="menuPanel">
+
+                    <table width="100%" class="title" cellspacing="0" cellpadding="0" border="0" style="border-collapse: collapse;">
+
+                        <tr>
+
+                            <td width="80%">menu & status line</td>
+
+                            <td style="background-color: whitesmoke">[LoginStatus control]</td>
+
+                        </tr>
+
+                    </table>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td width="20%">
+
+                    <div id="leftPanel">
+                        <asp:ContentPlaceHolder ID="contentLeftPanel" runat="server"></asp:ContentPlaceHolder>
+                    </div>
+
+                </td>
+
+                <td>
+
+                    <div id="contentPanel">
+                        <asp:ContentPlaceHolder ID="contentDataPanel" runat="server"></asp:ContentPlaceHolder>
+                    </div>
+
+                </td>
+
+                <td width="15%">
+
+                    <div id="rightPanel">
+                        <asp:ContentPlaceHolder ID="contentRightPanel" runat="server"></asp:ContentPlaceHolder>
+                    </div>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td colspan="3" align="center">
+
+                    <span class="footer">2014 - Aspx E.Shop application</span>
+
+                </td>
+
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+
+</html>
+
